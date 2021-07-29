@@ -1,0 +1,26 @@
+{
+  "name": "online_university",
+  "version": "1.0.0",
+  "description": "resp api for code assignment",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "tsc && nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kikikdev",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/http-errors": "^1.8.0",
+    "@types/morgan": "^1.9.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "http-errors": "^1.8.0",
+    "joi": "^17.3.0",
+    "mongoose": "^5.11.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
